@@ -1,0 +1,7 @@
+Packages
+.build
+xcuserdata
+Demure.xcodeproj
+DerivedData/
+.DS_Store
+.swiftpm
