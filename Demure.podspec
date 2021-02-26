@@ -1,13 +1,14 @@
 Pod::Spec.new do |specification|
   specification.name                      = 'Demure'
-  specification.version                   = '0.0.1'
+  specification.version                   = '0.0.2'
   specification.summary                   = 'Mocking server for UI tests'
   specification.homepage                  = 'https://github.com/Incetro/demure'
   specification.license                   = 'MIT'
   specification.author                    = { 'incetro' => 'andrew@incetro.ru' }
-  specification.source_files               = '*/Sources/DemureAPI/**/*.swift', '*/*.sh'
+  specification.source_files              = '*/Sources/DemureAPI/**/*.swift', '*/*.sh'
   specification.source                    = { :http => "#{specification.homepage}/releases/download/#{specification.version}/demure.zip" }
   specification.swift_version             = '5'
+  specification.preserve_paths            = '*'
   specification.ios.deployment_target     = '10.0'
   specification.osx.deployment_target     = '10.12'
   specification.tvos.deployment_target    = '10.0'
