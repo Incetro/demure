@@ -1,3 +1,5 @@
+![](demure.png)
+
 # Demure
 
 [![GitHub license](https://img.shields.io/badge/license-MIT-lightgrey.svg)](https://github.com/Incetro/Demure/blob/master/LICENSE)
